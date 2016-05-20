@@ -1,0 +1,5 @@
+---
+#This for add users
+- hosts: all
+  tasks:
+    - include: ../tools/useradd.yml
